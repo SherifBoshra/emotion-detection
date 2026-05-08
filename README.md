@@ -1,21 +1,18 @@
+# 😄 Real-Time Emotion Detection with CNN
 
-# Emotion Detection
+Detects 7 facial emotions from images or webcam using a 
+Convolutional Neural Network trained on FER2013.
 
-A deep learning project for detecting human emotions from facial expressions.
+## Emotions Detected
+Angry · Disgust · Fear · Happy · Sad · Surprise · Neutral
 
-## Project Structure
+## Results
+- Training Accuracy: ~65%
+- Validation Accuracy: ~63%
+[confusion matrix image here]
 
-- notebooks/ → experimentation and training
-- src/ → reusable model code
-- demo/ → live webcam demo
-- results/ → visual outputs and evaluation
+## How to Run
+[instructions]
 
-## Goals
-
-- Train an emotion classification model
-- Evaluate accuracy and confusion matrix
-- Build a live webcam demo
-
-## Dataset
-
-FER2013 dataset from Kaggle
+## Tech Stack
+Python · TensorFlow/Keras · OpenCV · NumPy · Matplotlib
